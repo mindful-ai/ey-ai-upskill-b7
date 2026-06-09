@@ -3,7 +3,7 @@ import json
 from myprompts import MEDICAL_PROMPT
 
 # Read API key from file
-api_key_path = r"E:\Lenovo Ideapad 330\company-material\digital-workforce-transformation\ai-upskill-5\key-vault\openai\api.key"
+api_key_path = r"E:\Lenovo Ideapad 330\company-material\digital-workforce-transformation\ai-upskill-7\key-vault\openai\api.key"
 
 with open(api_key_path, "r") as f:
     api_key = f.read().strip()
@@ -12,7 +12,7 @@ with open(api_key_path, "r") as f:
 client = OpenAI(api_key=api_key)
 
 # Select model
-MODEL = "gpt-4.1-mini"
+MODEL = "gpt-3.5-turbo"
 
 
 def build_prompt(user_query):
