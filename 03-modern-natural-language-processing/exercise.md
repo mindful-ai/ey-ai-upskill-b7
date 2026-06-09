@@ -1,4 +1,4 @@
-# Class Hands-on [10]
+# Homework
 
 - Create a HuggingFace pipeline that summarizes large text
 - Test it with some large text
@@ -10,10 +10,9 @@ text  = '''
 result = model(text)
 print(result)
 
-# Homework
+# Classwork [10 mins]
 
-- Create a HuggingFace pipeline that take modern English text and converts it into 
-Shakespearean English text
+- Create a HuggingFace pipeline that take modern English text and converts it into French
 - Test it with some samples
 
 # Note
